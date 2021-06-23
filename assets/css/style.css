@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: lato, sans-serif;
+    font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
@@ -27,13 +27,15 @@ h1, h2 {
     margin-left: 30px;
 }
 
-#menu, #logo {
-    line-height: 75px;
-}
+/* naviation links */
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
 }
 
 #menu li {
@@ -48,14 +50,14 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom:  1px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image */
+/* hero image and cover text */
 
 #hero-image {
     height: 600px;
@@ -84,7 +86,7 @@ h1, h2 {
 /* creates the level of zoom for hero image */
 
 @keyframes hero-zoom {
-    from {
+    from{
         transform: scale(1);
     }
     to{
@@ -96,7 +98,7 @@ h1, h2 {
     font-size: 130%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing:  4px;
+    letter-spacing: 4px;
 
     width: 300px;
     height: 200px;
@@ -132,13 +134,12 @@ h1, h2 {
 #center-about {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
 }
 
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
-    margin: 5px;
+    margin: 5px 0;
 }
 
 .left-about-heading {
@@ -164,3 +165,28 @@ hr {
 .right-about-heading p {
     text-align: right;
 }
+
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../images/ethos-center-image.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
